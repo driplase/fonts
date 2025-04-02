@@ -33,8 +33,8 @@ onMounted(() => {
         class="sample"
         :style="{ fontFamily: font.fontName }"
       >{{ sampleText }}</h1>
+      <button type="button" @click="changeText('en')" class="sample-changer">Change text</button>
     </div>
-    <button type="button" @click="changeText('en')">Change text</button>
     i'll create a preview thing soon, ok? :́D <!-- <= i mean, sweat smile -->
     <div class="preview">
 
@@ -56,6 +56,9 @@ main {
   width: 100%;
   padding: 128px 24px;
   text-align: center;
+}
+.sample-changer {
+  float: right;
 }
 .sample {
   font-size: 60px;
