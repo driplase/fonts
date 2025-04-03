@@ -7,9 +7,6 @@ export default defineNuxtConfig({
   css: [
     'assets/main.css'
   ],
-  routeRules: {
-    "/**": { redirect: undefined }, // Prevent infinite redirects
-  },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true }
 })
