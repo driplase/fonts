@@ -22,7 +22,7 @@
 }
 main {
   text-align: start;
-  margin: 8px;
+  padding: 8px;
   width: 100%;
   overflow-x: hidden;
 }

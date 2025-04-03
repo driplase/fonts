@@ -34,7 +34,7 @@ const changeValue = (e, type) => {
   left: 0;
   padding: 8px 20px;
   padding-top: 64px;
-  background: #f5f9ff;
+  background: var(--color-sidebar);
   height: 100%;
 }
 h3 {

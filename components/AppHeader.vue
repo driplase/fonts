@@ -36,6 +36,7 @@ nav > a {
   padding-top: 8px;
   justify-content: flex-start;
   margin-left: 25px;
-  text-shadow: 1px 1px 3px #00000099;
+  text-shadow: 1px 1px 3px var(--color-text-shadow);
+  user-select: none;
 }
 </style>

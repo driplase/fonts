@@ -1,9 +1,98 @@
 {
+  "ar": [
+    "الثعلب البني السريع يقفز فوق الكلب الكسول.",
+    "القمر يضيء الصحراء الهادئة. يسمع صوت ناي في البعيد.",
+    "الشمس تشرق على البحر الهادئ.",
+    "كانت الرياح تهب برفق، والشوارع بدأت تهدأ."
+  ],
+  "az": [
+    "Sürətli qəhvəyi tülkü tənbəl itin üstünə tullanır.",
+    "Gün batarkən çay sakit axır. Uzaqdan bir mahnı eşidilir.",
+    "Solen gikk ned, og luften ble kjøligere."
+  ],
+  "de": [
+    "Der schnelle braune Fuchs springt über den faulen Hund.",
+    "Die Straßenlaternen leuchten im Nebel. Ein alter Mann füttert die Tauben.",
+    "Der Regen fiel leise, und die Straßen glänzten im Licht."
+  ],
   "en": [
+    "The quick brown fox jumps over the lazy dog.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "Even a small thing can waste millions of time.",
-    "Simple is best, but it's not always true."
+    "Simple is best, but it's not always true.",
+    "Look at the sky. Don't you think it's beautiful?",
+    "The sun set, and the streets grew quiet."
+  ],
+  "es": [
+    "El rápido zorro marrón salta sobre el perro perezoso.",
+    "El sol se esconde tras las montañas. La brisa huele a mar y a café recién hecho.",
+    "Las estrellas brillan en la noche.",
+    "El sol se ocultaba, y las luces de la ciudad comenzaron a brillar."
+  ],
+  "fr": [
+    "Le renard brun rapide saute par-dessus le chien paresseux.",
+    "La pluie frappe doucement la fenêtre. Une tasse de thé fume sur la table.",
+    "Un chat dort sous la table.",
+    "Le vent soufflait doucement, et les feuilles tourbillonnaient dans les rues."
+  ],
+  "gr": [
+    "Η γρήγορη καφέ αλεπού πηδάει πάνω από τον τεμπέλη σκύλο.",
+    "Το κύμα αγγίζει απαλά την αμμουδιά. Ένα καράβι χάνεται στον ορίζοντα.",
+    "Ο ήλιος λάμπει πάνω από το νησί.",
+    "Ο ήλιος έδυε, και οι άνθρωποι άρχισαν να επιστρέφουν στα σπίτια τους."
+  ],
+  "it": [
+    "Il sole tramontava, e la città si faceva più tranquilla."
+  ],
+  "ja": [
+    "夕日が沈んで、空がオレンジ色に染まった。",
+    "彼は私に何か伝えようとしたが、私にはなにもわからなかった。"
+  ],
+  "kr": [
+    "해가 지고, 거리는 점점 조용해졌다."
+  ],
+  "no": [
+    "Den raske brune reven hopper over den late hunden.",
+    "Snøen dekker de stille gatene. En katt smyger seg forbi døren.",
+    "Solen gikk ned, og luften ble kjøligere."
+  ],
+  "sv": [
+    "Det är inte helt nytt, men jag tycker inte det är dåligt.",
+    "Solen gick ner, och staden blev tystare."
   ],
   "la": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Sol occidebat, et ventus frangens erat."
+  ],
+  "pt": [
+    "O sol se pôs, e a noite tomou conta das ruas."
+  ],
+  "pl": [
+    "Szybki brązowy lis skacze nad leniwym psem.",
+    "Wiatr szepcze wśród drzew. Księżyc odbija się w jeziorze.",
+    "Deszcz maluje wzory na szybie.",
+    "Zmierzch zapadał, a ulice zaczęły pustoszeć."
+  ],
+  "ru": [
+    "Быстрая коричневая лиса прыгает через ленивую собаку.",
+    "Ветер играет с осенними листьями. Вдалеке слышен смех детей.",
+    "Вечерний свет тускнел, и тени растягивались по улице."
+  ],
+  "tr": [
+    "Güneş battı, ve sokaklar sessizleşti."
+  ],
+  "ua": [
+    "Швидка коричнева лисиця стрибає через ледачого собаку.",
+    "Над рікою кружляє білий птах. Легкий вітерець несе аромат трав.",
+    "Сонце сідало, і небо забарвлювалося в червоні відтінки."
+  ],
+  "vn": [
+    "Mặt trời lặn, và bầu không khí trở nên yên tĩnh."
+  ],
+  "zh-ch": [
+    "太阳下山了，街道渐渐安静。"
+  ],
+  "zh-tw": [
+    "太陽下山了，街道漸漸安靜。"
   ]
 }

@@ -1,13 +1,36 @@
 :root {
-  --color-background: white;
-  --color-background-selected: #f2f9ff;
-  --color-text: #010527;
-  --color-text-gray: #535c6e;
-  --color-input: #ecf3ff;
-  --color-textarea: #e3edff;
-  --color-tile-split: rgb(160, 164, 175);
-
+  --color-light-background: white;
+  --color-light-background: rgb(42, 45, 65);
+  --color-light-background-selected: #f2f9ff;
+  --color-light-background-selected: #393f55;
+  --color-light-sidebar: #f5f9ff;
+  --color-light-sidebar: #353547;
+  --color-light-text: #010527;
+  --color-light-text: #f2f3ff;
+  --color-light-text-shadow: #00000099;
+  --color-light-text-shadow: #ffffff99;
+  --color-light-text-gray: #535c6e;
+  --color-light-text-gray: #8c97ad;
+  --color-light-input: #ecf3ff;
+  --color-light-input: #42425c;
+  --color-light-textarea: #e3edff;
+  --color-light-textarea: #3c4055;
+  --color-light-tile-split: rgb(160, 164, 175);
+  --color-light-tile-split: rgb(85, 97, 129);
+  
   --font-default: sans-serif;
+}
+
+:root {
+  --color-background: var(--color-light-background);
+  --color-background-selected: var(--color-light-background-selected);
+  --color-sidebar: var(--color-light-sidebar);
+  --color-text: var(--color-light-text);
+  --color-text-shadow: var(--color-light-text-shadow);
+  --color-text-gray: var(--color-light-text-gray);
+  --color-input: var(--color-light-input);
+  --color-textarea: var(--color-light-textarea);
+  --color-tile-split: var(--color-light-tile-split);
 }
 
 *, *::after, *::before {
@@ -29,12 +52,16 @@ textarea, input {
   border: none;
   resize: none;
   background: var(--color-input);
+  color: var(--color-text);
   border-radius: 10px;
   padding: 8px;
   font-size: 16px;
   height: 28px;
   &:focus {
     outline: none;
+  }
+  &::placeholder {
+    color: var(--color-text-gray);
   }
 }
 
@@ -56,6 +83,7 @@ input[type=range] {
   border-radius: 5px;
   background: #a5c1ff;
   padding: 0;
+  cursor: pointer;
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
     background: #2f67ff;
@@ -63,8 +91,9 @@ input[type=range] {
     height: 24px;
     border-radius: 50%;
     transition: box-shadow .5s ease-out;
+    
   }
-  
+
   &:hover {
     &::-webkit-slider-thumb {
       box-shadow: 0 0 8px #2f67ff;

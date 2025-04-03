@@ -1,14 +1,18 @@
 <script setup>
-import fonts from "../data/fonts.json"
-import sampleStc from "../data/sampleText.json"
+import fonts from "/data/fonts.json"
+import sampleStc from "/data/sampleText.json"
+import rtlLang from "/data/rtlLang.json"
 const route = useRoute();
 const sampleText = ref(''), previewText = ref(null) 
+const sampleLang = ref('en')
 
 const font = fonts.find(i =>
   i.fontName.toLowerCase() === route.params.font.toLowerCase());
 
-const changeText = (type) => sampleText.value =
-  sampleStc[type][Math.floor(Math.random() * sampleStc[type].length)]
+const changeText = (type) => {
+  sampleLang.value = type
+  sampleText.value = sampleStc[type][Math.floor(Math.random() * sampleStc[type].length)]
+}
 
 changeText('en')
 
@@ -32,8 +36,14 @@ onMounted(() => {
       <h1
         class="sample"
         :style="{ fontFamily: font.fontName }"
+        :dir="rtlLang.includes(sampleLang) ? 'rtl' : 'ltr'"
       >{{ sampleText }}</h1>
-      <button type="button" @click="changeText('en')" class="sample-changer">Change text</button>
+      <div class="sample-changer">
+        <select v-model="sampleLang" @input="(e) => changeText(e.target.value)">
+          <option v-for="lang in Object.keys(sampleStc)" :value="lang">{{ lang }}</option>
+        </select>
+        <button type="button" @click="changeText(sampleLang)">Change text</button>
+      </div>
     </div>
     i'll create a preview thing soon, ok? :́D <!-- <= i mean, sweat smile -->
     <div class="preview">

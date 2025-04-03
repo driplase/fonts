@@ -1,4 +1,6 @@
 <script setup>
+import sampleStc from '/data/sampleText.json'
+
 const props = defineProps({
   fontName: String,
   fontPath: String,
@@ -7,7 +9,7 @@ const props = defineProps({
   text: String,
 })
 
-const loremipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+const loremipsum = sampleStc.en[0]
 
 onMounted(() => {
   new FontFace(props.fontName, `url(${props.fontPath})`)
