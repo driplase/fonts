@@ -1,12 +1,17 @@
 [
   {
     "fontName": "Eclyera",
-    "fontPath": "/assets/fonts/eclyera.ttf",
+    "fontPath": "https://cdn.jsdelivr.net/gh/ixbw/eclyera@v0.5/eclyera.woff2",
     "author": "driplase"
   },
   {
     "fontName": "Lixeld",
-    "fontPath": "/assets/fonts/lixeld.ttf",
+    "fontPath": "https://cdn.jsdelivr.net/gh/ixbw/lixeld@v1.2/lixeld.woff2",
+    "author": "driplase"
+  },
+  {
+    "fontName": "Nixymd",
+    "fontPath": "https://cdn.jsdelivr.net/gh/ixbw/nixymd@v1.0/Nixymd.ttf",
     "author": "driplase"
   }
 ]
